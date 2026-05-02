@@ -1,93 +1,134 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的自我介紹</title>
-    <style>
-        body {
-            font-family: "Segoe UI", sans-serif;
-            margin: 0;
-            background: linear-gradient(135deg, #74ebd5, #ACB6E5);
-            color: #333;
-        }
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            background: white;
-            border-radius: 15px;
-            padding: 30px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-        }
-        .profile {
-            text-align: center;
-        }
-        .profile img {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            object-fit: cover;
-        }
-        h1 {
-            margin: 10px 0;
-        }
-        .section {
-            margin-top: 30px;
-        }
-        .section h2 {
-            border-left: 5px solid #74ebd5;
-            padding-left: 10px;
-        }
-        .skills span {
-            display: inline-block;
-            background: #74ebd5;
-            color: white;
-            padding: 5px 10px;
-            border-radius: 10px;
-            margin: 5px;
-        }
-        footer {
-            text-align: center;
-            margin-top: 30px;
-            color: gray;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>莊承軒 | 半導體封裝工程師</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    border-left: 4px solid #38bdf8;
+    padding-left: 10px;
+    margin-top: 40px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.highlight {
+    color: #38bdf8;
+}
+
+.skills span {
+    display: inline-block;
+    background: #38bdf8;
+    color: #0f172a;
+    padding: 6px 12px;
+    border-radius: 8px;
+    margin: 5px;
+    font-size: 14px;
+}
+</style>
 </head>
+
 <body>
 
 <div class="container">
-    <div class="profile">
-        <img src="https://via.placeholder.com/120" alt="大頭貼">
-        <h1>你的名字</h1>
-        <p>一段簡短的自我介紹，例如：熱愛學習與創作的學生</p>
-    </div>
 
-    <div class="section">
-        <h2>關於我</h2>
+    <h1>莊承軒</h1>
+    <p class="highlight">Semiconductor Packaging Engineer | 半導體封裝工程師</p>
+
+    <div class="card">
+        <h2>專業摘要</h2>
         <p>
-            這裡寫你的背景介紹，例如學校、科系、興趣或人生目標。
+            具備半導體封裝製程經驗，現任日月光半導體專案工程師，負責產品異常分析、
+            製程改善與新產品導入（NPI）。熟悉跨部門協作與客戶稽核應對，
+            具備製程優化與自動化導入能力，以降低人為缺陷並提升產品良率。
         </p>
     </div>
 
-    <div class="section">
-        <h2>技能</h2>
+    <div class="card">
+        <h2>工作經驗</h2>
+        <p><strong>日月光半導體製造股份有限公司</strong>｜專案工程師（2023/9 - 現在）</p>
+        <ul>
+            <li>執行產品異常分析（Failure Analysis），提出預防與改善對策</li>
+            <li>評估新技術導入既有製程，持續優化製程能力與良率</li>
+            <li>負責新產品導入（NPI）與 RA Level 評估</li>
+            <li>對應客戶稽核（Customer Audit），確保製程符合品質要求</li>
+            <li>導入新材料與製程優化，達成成本降低（Cost Down）</li>
+            <li>推動自動化生產，降低人為操作造成之缺陷</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>技術能力</h2>
         <div class="skills">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>設計</span>
+            <span>Failure Analysis</span>
+            <span>NPI</span>
+            <span>Process Improvement</span>
+            <span>Yield Enhancement</span>
+            <span>Automation</span>
+            <span>Cost Reduction</span>
         </div>
     </div>
 
-    <div class="section">
-        <h2>聯絡方式</h2>
-        <p>Email：your@email.com</p>
-        <p>Instagram：@your_account</p>
+    <div class="card">
+        <h2>學歷</h2>
+        <p><strong>國立臺灣科技大學</strong>｜醫學工程研究所 碩士（2021 - 2023）</p>
+        <p><strong>義守大學</strong>｜生物醫學工程學系 學士（2017 - 2021）</p>
     </div>
 
-    <footer>
-        © 2026 你的名字
-    </footer>
+    <div class="card">
+        <h2>工程技能（跨領域）</h2>
+        <div class="skills">
+            <span>SolidWorks</span>
+            <span>Creo</span>
+            <span>Mimics Medical</span>
+            <span>Meshmixer</span>
+            <span>3D Printing (FDM)</span>
+        </div>
+        <p>
+            具備醫學影像重建與3D建模能力，曾設計人工關節、脊椎植入物與生醫裝置，
+            具跨領域整合能力。
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>研究與專案</h2>
+        <ul>
+            <li>開發人工髖關節與脊椎植入物</li>
+            <li>鼻腔量測技術與植入物設計</li>
+            <li>足弓支撐鞋墊研究與族群分析</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>聯絡方式</h2>
+        <p>Email：your@email.com</p>
+    </div>
+
 </div>
 
 </body>
